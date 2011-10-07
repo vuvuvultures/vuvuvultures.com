@@ -7,6 +7,6 @@ class Application < Sinatra::Base
   end
   
   get '/' do
-    send_file File.join(settings.public, 'index.html')
+    send_file '../public/index.html'
   end
 end
