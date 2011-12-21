@@ -27,7 +27,7 @@ outline: none;
 html, body {
 	height: 100%;
 font-family: 'Droid Sans Mono', sans-serif;	
-background:none;
+background-color:#000;
  	}
  	
  	body
