@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+* {margin:0;padding:0}
+
+html, body {
+	height: 100%;
+	font-family: Georgia, Serif;
+	}
+	
+
+#wrap {
+	min-height: 100%;
+	width:940px;
+	margin:0 auto;
+	}
+	
+
+#header {
+	background: #000;
+	color: #fff;
+	font-family: Georgia, Serif;
+}
+
+
+#main {
+	overflow:auto;
+	padding-bottom: 50px; /* must be same height as the footer */
+	}  
+	
+#nav {
+	font-style: italic;
+	font-family: Georgia, Serif;
+	font-size:13px;
+}
+
+
+
+#footer {
+	position: relative;
+	margin-top: -50px; /* negative value of footer height */
+	height: 50px;
+	clear:both;
+	background: #fff;
+	} 
+	
+	#innersole {
+	background: #000;
+	width: 940px;
+	margin:0 auto;
+	height: 50px;
+	font-family: Georgia, Serif;
+	color: #FFF;
+	font-size:9px;
+	}
+	
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
+}
