@@ -26,26 +26,27 @@ outline: none;
 
 html, body {
 	height: 100%;
-font-family: 'Droid Sans Mono', sans-serif;	
-background-color:#000;
+	font-family: 'Droid Sans Mono', sans-serif;	
+	background-color:#000;
  	}
  	
  	body
  	{
- 	background-image:url('photo3.jpg');
- 	}
+		 background-image:url('photo3.jpg');
+	background-repeat:repeat;
+	 	}
 	
 
 #wrap {
 	min-height: 100%;
-	width:940px;
+	width:740px;
 	margin:0 auto;
 	}
 	
 
 #header {
 	color: #fff;
-	width: 940px;
+	width: 740px;
 	height: 210px;
 	padding-top:0px;
 	}
@@ -65,27 +66,30 @@ padding-left: 750px;
 	width:309px;	
 	BACKGROUND: #000;
 	padding-top: 8px;
-	padding-right: 11px;
 	padding-bottom: 5px;
 	padding-left: 0px;
 	margin-left: 600px;
 	}
 
 #socpic {
-	padding: 5px;
+	padding: 0px;
 	text-align:right;
 }
 
 #socpic img {
-	padding: 5px;
+	padding: 0px;
 }
 
 .menu{
 	font-family: "Arial Black", Gadget, sans-serif;
-	font-size:12px;
-	padding-right: 140px;
-	float:left;
-	padding-top:55px;
+	font-size:13px;
+	/*padding-right: 140px; */
+	/* padding-top:55px; */
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #000;
+	border: 1px dotted white;
+	
 	}
 	
 	.menu ul{
@@ -93,9 +97,7 @@ padding-left: 750px;
 	}
  
 .menu ul li{
-    display:  list-item;
-
-
+    display:  inline;	
 	}
  
 .menu ul li a{
@@ -113,7 +115,8 @@ padding-left: 750px;
 .menu ul li a:hover, .menu ul li .current{
     color: #fff;
     background-color:none;
-	}
+ text-decoration:line-through;
+ 	}
 	
 	h1,h2,h3,h4,h5,h6 {
 	display: inline;
@@ -121,32 +124,34 @@ padding-left: 750px;
 	
 	#main {
 		overflow:auto;
-		padding-bottom: 50px; /* must be same height as the footer */
+		padding-bottom: 30px; /* must be same height as the footer */
+		padding-left: 0px;
 		}  
 		
 
 #content {
 	padding-top: 20px;
-font-family: 'Droid Sans Mono', sans-serif;
+	font-family: 'Droid Sans Mono', sans-serif;
 	font-size:10px;
 	background: #fff;
 	margin-bottom:30px;
 	}
 	
 	#tumblr {
-		width: 400px;
+	width: 400px;
 	}
 	
 	
 	#content2 {
-	padding-top: 30px;
-	padding-bottom: 60px;
+	padding-top: 45px;
+	padding-bottom: 50px;
 	font-family: 'Droid Sans Mono', sans-serif;
 	font-size:10px;
 	color: #F0F0F0;
 	width: 500px;
 	float:left;
 	}
+	
 	
 	#content2 a {
 		color: white;
@@ -167,12 +172,12 @@ font-family: 'Droid Sans Mono', sans-serif;
 	}
 	
 	#live {
-	padding-top: 30px;
+	padding-top: 50px;
 	padding-bottom: 60px;
 	font-family: 'Droid Sans Mono', sans-serif;
-	font-size:10px;
+	font-size:11px;
 	color: #F0F0F0;
-	width: 700px;
+	width: 740px;
 	float:left;
 	}
 	
@@ -186,7 +191,7 @@ font-family: 'Droid Sans Mono', sans-serif;
 	}
 	
 	table img {
-		padding-right: 40px;
+		padding-right: 20px;
 	}
 	
 	h1 {
@@ -198,10 +203,10 @@ font-family: 'Droid Sans Mono', sans-serif;
 	}
 	
 	#EP {
-	padding-top: 30px;
+	padding-top: 50px;
 	font-family: 'Droid Sans Mono', sans-serif;
 	font-size: 11px;
-	width: 500px;
+	width: 740px;
 	float:left;
 	color: #F0F0F0;
 	}
@@ -378,29 +383,26 @@ text-decoration: underline;
 
 #footer {
 	position: relative;
-	margin-top: -70px; /* negative value of footer height */
-	height: 50px;
+	margin-top: -30px; /* negative value of footer height */
+	height: 30px;
 	clear:both;
-	background: none;
+	background: #000;
 	} 
 	
 	
 	#innersole {
 	background: none;
-	width: 940px;
+	width: 740px;
 	margin:0 auto;
 	height: 50px;
-	padding-right: 10px;
 	font-family: 'Droid Sans Mono', sans-serif;	
 	}
 	
 	#soletext {
-font-family: 'Droid Sans Mono', sans-serif;
+	font-family: 'Droid Sans Mono', sans-serif;
 	color: #FFF;
 	font-size:7px;
-	text-align:right;
-	padding-top: 20px;
-	
+	padding-top: 10px;
 	}
 	
 	
