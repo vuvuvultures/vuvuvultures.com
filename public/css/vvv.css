@@ -174,10 +174,10 @@ padding-left: 750px;
 	#live {
 	padding-top: 50px;
 	padding-bottom: 60px;
-	font-family: 'Droid Sans Mono', sans-serif;
 	font-size:11px;
 	color: #F0F0F0;
 	width: 740px;
+		font-family:  Arial, Helvetica, sans-serif;
 	float:left;
 	}
 	
@@ -186,7 +186,7 @@ padding-left: 750px;
 		font-size: 9px;
 		font-style: italic;
 		text-decoration: none;
-	font-family: 'Droid Sans Mono', sans-serif;
+	font-family:  Arial, Helvetica, sans-serif;
 	color: grey;
 	}
 	
