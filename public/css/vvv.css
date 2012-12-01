@@ -124,7 +124,7 @@ padding-left: 750px;
 	
 	#main {
 		overflow:auto;
-		padding-bottom: 30px; /* must be same height as the footer */
+		padding-bottom: 50px; /* must be same height as the footer */
 		padding-left: 0px;
 		}  
 		
@@ -383,8 +383,8 @@ text-decoration: underline;
 
 #footer {
 	position: relative;
-	margin-top: -30px; /* negative value of footer height */
-	height: 30px;
+	margin-top: -50px; /* negative value of footer height */
+	height: 50px;
 	clear:both;
 	background: #000;
 	} 
@@ -402,7 +402,7 @@ text-decoration: underline;
 	font-family: 'Droid Sans Mono', sans-serif;
 	color: #FFF;
 	font-size:7px;
-	padding-top: 10px;
+	padding-top: 20px;
 	}
 	
 	
