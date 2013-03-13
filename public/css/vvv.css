@@ -1,0 +1,513 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+* {margin:0;padding:0}
+
+area{
+border:none; outline:none;
+}
+
+
+a:active
+{
+outline: none;
+-moz-outline-style: none;
+}
+
+a:focus
+{
+-moz-outline-style: none;
+outline: none;
+
+}
+
+
+html, body {
+	height: 100%;
+	font-family: 'Droid Sans Mono', sans-serif;	
+	background-color:#000;
+ 	}
+ 	
+ 	body
+ 	{
+		 background-image:url('photo3.jpg');
+	background-repeat:repeat;
+	 	}
+	
+
+#wrap {
+	min-height: 100%;
+	width:740px;
+	margin:0 auto;
+	}
+	
+
+#header {
+	color: #fff;
+	width: 740px;
+	height: 210px;
+	padding-top:0px;
+	}
+
+	
+#logo {
+float: left;	
+padding-right: 106px;
+}
+
+#soc {
+padding-left: 750px;	
+}
+
+#socpic2 {
+	border: #FFF thin solid;
+	width:309px;	
+	BACKGROUND: #000;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	margin-left: 600px;
+	}
+
+#socpic {
+	padding: 0px;
+	text-align:right;
+}
+
+#socpic img {
+	padding: 0px;
+}
+
+.menu{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size:13px;
+	/*padding-right: 140px; */
+	/* padding-top:55px; */
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #000;
+	border: 1px dotted white;
+	
+	}
+	
+	.menu ul{
+	list-style: none;
+	}
+ 
+.menu ul li{
+    display:  inline;	
+	}
+ 
+.menu ul li a{
+	text-decoration: none;
+    color: #fff;
+    background-color: none; 
+	}
+ 
+ 
+.menu ul li a:visited{
+    color: #FFF;
+	}
+ 
+ 
+.menu ul li a:hover, .menu ul li .current{
+    color: #fff;
+    background-color:none;
+ text-decoration:line-through;
+ 	}
+	
+	h1,h2,h3,h4,h5,h6 {
+	display: inline;
+	}
+	
+	#main {
+		overflow:auto;
+		padding-bottom: 50px; /* must be same height as the footer */
+		padding-left: 0px;
+		}  
+		
+
+#content {
+	padding-top: 20px;
+	font-family: 'Droid Sans Mono', sans-serif;
+	font-size:10px;
+	background: #fff;
+	margin-bottom:30px;
+	}
+	
+	#tumblr {
+	width: 400px;
+	}
+	
+	
+	#content2 {
+	padding-top: 45px;
+	padding-bottom: 50px;
+	font-family: 'Droid Sans Mono', sans-serif;
+	font-size:10px;
+	color: #F0F0F0;
+	width: 500px;
+	float:left;
+	}
+	
+	
+	#content2 a {
+		color: white;
+		font-size: 9px;
+		font-style: italic;
+		text-decoration: none;
+	font-family: 'Droid Sans Mono', sans-serif;
+	}
+	
+			
+	#content2 img.tumblr_photo {
+		height: 300px;
+		margin-bottom: 10px;
+	}
+	
+	#tumblr_caption p {
+		font-size: 8px;
+	}
+	
+	#live {
+	padding-top: 50px;
+	padding-bottom: 60px;
+	font-size:11px;
+	color: #F0F0F0;
+	width: 740px;
+		font-family:  Arial, Helvetica, sans-serif;
+	float:left;
+	}
+	
+	#live a {
+		color: white;
+		font-size: 9px;
+		font-style: italic;
+		text-decoration: none;
+	font-family:  Arial, Helvetica, sans-serif;
+	color: grey;
+	}
+	
+	table img {
+		padding-right: 20px;
+	}
+	
+	h1 {
+		font-family: 'Droid Sans Mono', sans-serif;
+		font-size:10px;
+		background: white;
+		color: black;
+		
+	}
+	
+	#EP {
+	padding-top: 50px;
+	font-family: 'Droid Sans Mono', sans-serif;
+	font-size: 11px;
+	width: 740px;
+	float:left;
+	color: #F0F0F0;
+	}
+	
+	#EP a{
+		
+	color: grey;
+	}
+	
+	#content3 {
+	padding-top: 10px;
+	margin-bottom:30px;
+	font-family: 'Droid Sans Mono', sans-serif;
+	font-size:10px;
+	background: #fff;
+	width: 525px;
+	float:left;
+	}
+	
+	#events p {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	font-style:italic;
+	font-family: 'Droid Sans Mono', sans-serif;
+	}
+	
+	#contactbox {
+	padding-top: 30px;
+	font-family: 'Droid Sans Mono', sans-serif;
+	font-size:10px;
+	font-style:italic;
+	width: 30px;
+	float:right;
+	}
+	
+	
+	#about {
+	float: left;
+	font-family: 'Andale Mono', sans-serif;
+	font-size:10px;
+	width: 260px;
+	text-align:justify;
+	}
+	
+	#about p {
+	padding-bottom: 30px;
+	font-style:normal;
+	}
+	
+		#about p a:link {
+		color: #000;
+		text-decoration:none;
+		font-style:italic;
+		}
+		
+			
+		#about p a:hover {
+		text-decoration:underline;
+		}
+	
+	
+	#about2 {
+	float: right;
+	font-family: 'Andale Mono', sans-serif;
+	font-size:10px;
+	width: 260px;
+	text-align:justify;
+	}
+	
+	#about2 p {
+	padding-bottom: 30px;
+	font-style:normal;
+	}
+	
+		#about2 p a:link {
+		color: #000;
+		text-decoration:none;
+		font-style:italic;
+		}
+		
+			
+		#about2 p a:hover {
+		text-decoration:underline;
+		}
+		
+	
+	
+			
+		#downloads {
+		width: 475px;	
+	font-family: 'Droid Sans Mono', sans-serif;
+	font-size:12px;
+		padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	font-style:italic;
+		}
+		
+		
+		
+		#downloads a:link {
+		color: #000;
+		text-decoration:none;
+		font-style:italic;
+		}
+		
+			
+		#downloads a:hover {
+		text-decoration:underline;
+		}
+		
+		#downloads a:visited {
+					color: #000;
+
+		}
+	
+	
+	
+	#contact {
+font-family: 'Droid Sans Mono', sans-serif;
+	font-size:12px;
+	font-style: normal;
+	}
+	
+	#contact p {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	}
+	
+		#contact p a:link {
+		color: #000;
+		text-decoration:none;
+		}
+		
+			
+		#contact p a:hover {
+		text-decoration:underline;
+		}
+	
+	
+	
+	
+
+.highlightit img{
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+-moz-opacity: 1;
+opacity: 1;
+}
+
+.highlightit:hover img{
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+-moz-opacity: 0.5;
+opacity: 0.5;
+}
+
+#viewblog {
+padding-right: 10px;
+text-align:right;	
+padding-bottom: 10px;
+
+}
+
+#viewblog a {
+text-decoration: none;
+color:#000;
+font-size:9px;
+}
+
+#viewblog a:hover {
+text-decoration: underline;
+}
+
+#footer {
+	position: relative;
+	margin-top: -50px; /* negative value of footer height */
+	height: 50px;
+	clear:both;
+	background: #000;
+	} 
+	
+	
+	#innersole {
+	background: none;
+	width: 740px;
+	margin:0 auto;
+	height: 50px;
+	font-family: 'Droid Sans Mono', sans-serif;	
+	}
+	
+	#soletext {
+	font-family: 'Droid Sans Mono', sans-serif;
+	color: #FFF;
+	font-size:7px;
+	padding-top: 20px;
+	}
+	
+	
+	
+	#soletext a {
+	color:#fff;
+	text-decoration:none;
+	}
+	
+	#soletext a:hover {
+	background-color:#fff;
+	color: #000;
+	}
+	
+	#tourdates {
+margin-left:40px;	
+overflow:auto;
+position: relative;
+padding-bottom:30px;
+}
+
+#tourdates a{
+color:#cccccc;
+
+}
+#tourdates a:hover {
+	text-decoration:none;
+	background-color:#ffffff;
+	color:#fff;
+	}
+	
+/* tumblr */
+
+#tumblr {
+	width: 380px;	
+	padding-left:40px;
+	padding-bottom: 25px;
+	padding-top: 20px;
+	width: 500px;	
+	font-style:italic;
+	font-size:11px;
+}
+
+
+.tumblr_posts {	
+
+}
+
+ol.tumblr_posts{
+list-style:none;
+}
+
+.tumblr_post {	
+padding:20px;	
+}
+
+.tumblr_caption p  {	
+color: #F0F0F0;
+font-size: 9px;
+}
+ 
+
+.tumblr_photo{
+padding-bottom: 5px;}
+
+.tumblr_title {	
+color:#000;
+}
+
+li.tumblr_post.tumblr_photo_post {
+width:400px;	
+}
+
+
+.tumblr_body img {	
+}
+
+
+
+.read_more_container {
+	
+}
+.read_more_container a {
+	
+}
+
+.tumblr_quote {	
+
+}
+.tumblr_quote p {		
+
+}
+.tumblr_source {
+	
+}
+
+
+
+	
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
+}
