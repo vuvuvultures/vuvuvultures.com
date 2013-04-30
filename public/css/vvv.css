@@ -124,7 +124,7 @@ padding-left: 750px;
 	
 	#main {
 		overflow:auto;
-		padding-bottom: 50px; /* must be same height as the footer */
+		padding-bottom: 30px; /* must be same height as the footer */
 		padding-left: 0px;
 		}  
 		
@@ -383,27 +383,14 @@ text-decoration: underline;
 
 #footer {
 	position: relative;
-	margin-top: -50px; /* negative value of footer height */
-	height: 50px;
+	margin-top: -30px; /* negative value of footer height */
+	height: 30px;
 	clear:both;
 	background: #000;
 	} 
 	
 	
-	#innersole {
-	background: none;
-	width: 740px;
-	margin:0 auto;
-	height: 50px;
-	font-family: 'Droid Sans Mono', sans-serif;	
-	}
 	
-	#soletext {
-	font-family: 'Droid Sans Mono', sans-serif;
-	color: #FFF;
-	font-size:7px;
-	padding-top: 20px;
-	}
 	
 	
 	
