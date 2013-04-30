@@ -392,7 +392,10 @@ text-decoration: underline;
 	
 	
 	
-	
+	#soletext
+ {
+	 margin: auto;
+ }
 	
 	#soletext a {
 	color:#fff;
