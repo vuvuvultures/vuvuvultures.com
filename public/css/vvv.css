@@ -32,9 +32,11 @@ html, body {
  	
  	body
  	{
-		 background-image:url('../photo4.jpg');
-	background-repeat:repeat;
-	 	}
+		 background: url('../photo4.jpg') no-repeat top center fixed;
+		 -moz-background-size: cover; 
+		 -webkit-background-size: cover; 
+		 -o-background-size: cover; 
+		 background-size: cover;	 	}
 	
 
 #wrap {
