@@ -27,7 +27,6 @@ outline: none;
 html, body {
 	height: 100%;
 	font-family: 'Droid Sans Mono', sans-serif;	
-	background-color:#000;
  	}
  	
  	body
@@ -40,7 +39,6 @@ html, body {
 	
 
 #wrap {
-	min-height: 100%;
 	width:740px;
 	margin:0 auto;
 	}
@@ -137,9 +135,14 @@ font-family: 'Raleway', sans-serif;
 	
 	#main {
 		overflow:auto;
-		padding-bottom: 30px; /* must be same height as the footer */
 		padding-left: 0px;
+		padding-bottom: 45px;
 		}  
+		
+		#mainh {
+			overflow:auto;
+			padding-left: 0px;
+			}  
 		
 #mainh a {
 		background-color: black;
@@ -162,7 +165,6 @@ font-family: 'Raleway', sans-serif;
 	font-family: 'Droid Sans Mono', sans-serif;
 	font-size:10px;
 	background: #fff;
-	margin-bottom:30px;
 	}
 	
 	#tumblr {
@@ -172,7 +174,6 @@ font-family: 'Raleway', sans-serif;
 	
 	#content2 {
 	padding-top: 45px;
-	padding-bottom: 50px;
 	font-family: 'Droid Sans Mono', sans-serif;
 	font-size:10px;
 ;	width: 500px;
@@ -187,7 +188,7 @@ font-family: 'Raleway', sans-serif;
 		font-size: 9px;
 		font-style: italic;
 		text-decoration: none;
-	font-family: 'Droid Sans Mono', sans-serif;
+		font-family: 'Droid Sans Mono', sans-serif;
 	}
 	
 			
@@ -201,12 +202,12 @@ font-family: 'Raleway', sans-serif;
 	}
 	
 	#live {
-	padding-top: 50px;
-	padding-bottom: 60px;
-	font-size:11px;
-color:#000;
+	margin-top: 45px;;
+	font-size:9px;
+	color:#000;
+	background-color: #f5f5f5;
 	width: 740px;
-		font-family:  Arial, Helvetica, sans-serif;
+	font-family:  Arial, Helvetica, sans-serif;
 	float:left;
 	}
 	
@@ -215,8 +216,8 @@ color:#000;
 		font-size: 9px;
 		font-style: italic;
 		text-decoration: none;
-	font-family:  Arial, Helvetica, sans-serif;
-	color: grey;
+		font-family:  Arial, Helvetica, sans-serif;
+		color: grey;
 	}
 	
 	table img {
@@ -310,7 +311,6 @@ color:#000;
 	}
 	
 	#about2 p {
-	padding-bottom: 30px;
 	font-style:normal;
 	}
 	
@@ -384,60 +384,8 @@ font-family: 'Droid Sans Mono', sans-serif;
 	
 	
 
-.highlightit img{
-filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
--moz-opacity: 1;
-opacity: 1;
-}
 
-.highlightit:hover img{
-filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
--moz-opacity: 0.5;
-opacity: 0.5;
-}
 
-#viewblog {
-padding-right: 10px;
-text-align:right;	
-padding-bottom: 10px;
-
-}
-
-#viewblog a {
-text-decoration: none;
-color:#000;
-font-size:9px;
-}
-
-#viewblog a:hover {
-text-decoration: underline;
-}
-
-#footer {
-	position: relative;
-	margin-top: -30px; /* negative value of footer height */
-	height: 30px;
-	clear:both;
-	background: #000;
-	} 
-	
-	
-	
-	
-	#soletext
- {
-	 margin: auto;
- }
-	
-	#soletext a {
-	color:#fff;
-	text-decoration:none;
-	}
-	
-	#soletext a:hover {
-	background-color:#fff;
-	color: #000;
-	}
 	
 	#tourdates {
 margin-left:40px;	
@@ -456,80 +404,6 @@ color:#cccccc;
 	color:#fff;
 	}
 	
-/* tumblr */
-
-#tumblr {
-	width: 380px;	
-	padding-left:40px;
-	padding-bottom: 25px;
-	padding-top: 20px;
-	width: 500px;	
-	font-style:italic;
-	font-size:11px;
-}
-
-
-.tumblr_posts {	
-
-}
-
-ol.tumblr_posts{
-list-style:none;
-}
-
-.tumblr_post {	
-padding:20px;	
-}
-
-.tumblr_caption p  {	
-color: #F0F0F0;
-font-size: 9px;
-}
- 
-
-.tumblr_photo{
-padding-bottom: 5px;}
-
-.tumblr_title {	
-color:#000;
-}
-
-li.tumblr_post.tumblr_photo_post {
-width:400px;	
-}
-
-
-.tumblr_body img {	
-}
 
 
 
-.read_more_container {
-	
-}
-.read_more_container a {
-	
-}
-
-.tumblr_quote {	
-
-}
-.tumblr_quote p {		
-
-}
-.tumblr_source {
-	
-}
-
-
-
-	
-
-/*Opera Fix*/
-body:before {
-	content:"";
-	height:100%;
-	float:left;
-	width:0;
-	margin-top:-32767px;/
-}
