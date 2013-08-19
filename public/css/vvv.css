@@ -174,8 +174,8 @@ font-family: 'Raleway', sans-serif;
 	
 	#content2 {
 	padding-top: 45px;
-	font-family: 'Droid Sans Mono', sans-serif;
-	font-size:10px;
+	font-family: 'Raleway', sans-serif!important;	
+	font-size:12px!important;
 ;	width: 500px;
 	float:left;
 	color: #fff;
@@ -185,10 +185,10 @@ font-family: 'Raleway', sans-serif;
 	
 	#content2 a {
 		color: white;
-		font-size: 9px;
+	font-size:12px!important;
 		font-style: italic;
 		text-decoration: none;
-		font-family: 'Droid Sans Mono', sans-serif;
+	font-family: 'Raleway', sans-serif!important;	
 	}
 	
 			
@@ -261,7 +261,7 @@ font-family: 'Raleway', sans-serif;
 	#content3 {
 	padding-top: 10px;
 	margin-bottom:30px;
-	font-family: 'Droid Sans Mono', sans-serif;
+	font-family: 'Raleway', sans-serif!important;	
 	font-size:10px;
 	background: #fff;
 	width: 525px;
