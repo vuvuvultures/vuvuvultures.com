@@ -31,11 +31,12 @@ html, body {
  	
  	body
  	{
-		 background: url('../photo4.jpg') no-repeat top center fixed;
+		 background: url('../pushpull.jpg') no-repeat bottom center fixed;
 		 -moz-background-size: cover; 
 		 -webkit-background-size: cover; 
 		 -o-background-size: cover; 
-		 background-size: cover;	 	}
+		 background-size: cover;	 
+		 background-color: #000;	}
 	
 
 #wrap {
@@ -182,9 +183,14 @@ font-family: 'Raleway', sans-serif;
 	font-style: bold;
 	}
 	
+	#content2 u {
+		color: black;
+		background: #fff;
+	}
 	
 	#content2 a {
-		color: white;
+		color: black;
+		background: #fff;
 	font-size:12px!important;
 		font-style: italic;
 		text-decoration: none;
